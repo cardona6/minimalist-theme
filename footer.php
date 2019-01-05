@@ -14,6 +14,7 @@
 
 	<footer id="colophon" class="site-footer">
 		<div class="site-info">
+		<img src= "<?php echo get_stylesheet_directory_uri(); ?>/logo-text.png" alt ="Glasgow" class ="logoimg">
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'minimalist-theme' ) ); ?>">
 				<?php
 				/* translators: %s: CMS name, i.e. WordPress. */

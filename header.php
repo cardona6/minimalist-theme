@@ -24,6 +24,7 @@
 
 	<header id="masthead" class="site-header">
 		<div class="site-branding">
+			<img src= "<?php echo get_stylesheet_directory_uri(); ?>/logo-text.png" alt ="Glasgow Bike Store logo" class ="logo-img">
 			<?php
 			if ( is_front_page() && is_home() ) :
 				?>
